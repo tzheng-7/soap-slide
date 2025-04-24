@@ -3,5 +3,4 @@ if (!instance_place(x, y + sprite_height, object_index)) {
     instance_create_layer(x, y + sprite_height, layer, object_index);
 }
 
-// Move up
-y -= 1;
+y += vspd; // Move up endlessly
