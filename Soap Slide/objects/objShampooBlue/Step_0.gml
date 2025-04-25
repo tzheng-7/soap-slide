@@ -1,0 +1,1 @@
+y += -4; // Move up endlessly
