@@ -1,0 +1,1 @@
+survival_time = 0; // in seconds
