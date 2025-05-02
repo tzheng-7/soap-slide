@@ -1,1 +1,1 @@
-move_speed = 6;
+move_speed = 3;
