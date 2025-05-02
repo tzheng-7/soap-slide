@@ -1,1 +1,1 @@
-y += -4; // Move up endlessly
+y += vspd; // Move up endlessly
