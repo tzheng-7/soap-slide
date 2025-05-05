@@ -1,3 +1,3 @@
 # Soap Slide
 
-Play as an unfortunate bar of soap sliding endlessly down a tile floor! Dodge obstacles and survive for as long as possible.
+Control a bar of soap as it slides down a slippery bathroom floor, dodging obstacles from rubber duckies to bottles of shampoo. The longer you last, the trickier it gets. How long can you survive the slippery chaos?
