@@ -52,6 +52,8 @@
     {"id":{"name":"rmGame","path":"rooms/rmGame/rmGame.yy",},},
     {"id":{"name":"rmGameOver","path":"rooms/rmGameOver/rmGameOver.yy",},},
     {"id":{"name":"rmStartScreen","path":"rooms/rmStartScreen/rmStartScreen.yy",},},
+    {"id":{"name":"sndBgm","path":"sounds/sndBgm/sndBgm.yy",},},
+    {"id":{"name":"sndWompwomp","path":"sounds/sndWompwomp/sndWompwomp.yy",},},
     {"id":{"name":"sprBodyWashCream","path":"sprites/sprBodyWashCream/sprBodyWashCream.yy",},},
     {"id":{"name":"sprBodyWashGreen","path":"sprites/sprBodyWashGreen/sprBodyWashGreen.yy",},},
     {"id":{"name":"sprBubbleTrail","path":"sprites/sprBubbleTrail/sprBubbleTrail.yy",},},
