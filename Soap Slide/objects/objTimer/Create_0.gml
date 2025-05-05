@@ -1,1 +1,2 @@
-survival_time = 0; // in seconds
+// Create variables
+survival_time = 0;

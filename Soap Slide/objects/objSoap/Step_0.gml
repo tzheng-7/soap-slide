@@ -2,9 +2,9 @@
 var hmove = 0;
 
 if (keyboard_check(vk_left)) {
-    hmove = -1;
+    hmove = -1; // Move left
 } else if (keyboard_check(vk_right)) {
-    hmove = 1;
+    hmove = 1; // Move right
 }
 
 // Timer for speed increase (every 3 seconds)
@@ -29,16 +29,16 @@ if (!variable_global_exists("bubble_timer")) {
 
 global.bubble_timer -= 1;
 
-if (global.bubble_timer <= 0) {
+if (global.bubble_timer <= 0) { // Time to spawn bubbles
     global.bubble_timer = 4; // Spawn every 4 frames
 
     var bubble_count = 3 + irandom(2); // 3–5 bubbles at once
 
     for (var i = 0; i < bubble_count; i++) {
-        var offset_x = random_range(-sprite_width * 0.5, sprite_width * 0.5);
-        var bub = instance_create_layer(x + offset_x, y + sprite_height * 0.5, "Bubble_trail", objBubbleTrail);
+        var offset_x = random_range(-sprite_width * 0.5, sprite_width * 0.5); // Random horizontal offset
+        var bub = instance_create_layer(x + offset_x, y + sprite_height * 0.5, "Bubble_trail", objBubbleTrail); // Create bubble
         
-        bub.image_xscale = random_range(0.4, 1);
-        bub.image_yscale = bub.image_xscale;
+        bub.image_xscale = random_range(0.4, 1); // Random bubble size
+        bub.image_yscale = bub.image_xscale; // Keep bubble proportions
     }
 }
